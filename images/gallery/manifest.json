@@ -1,0 +1,38 @@
+[
+  {
+    "file": "gyuvech-kyufteta.jpg",
+    "alt": "Гювеч с домашни кюфтенца",
+    "width": 957,
+    "height": 1120
+  },
+  {
+    "file": "hlyab-pita.jpg",
+    "alt": "Прясно изпечен домашен хляб",
+    "width": 1024,
+    "height": 807
+  },
+  {
+    "file": "panirano-file-salata.jpg",
+    "alt": "Панирано филе със зелена салата",
+    "width": 1024,
+    "height": 731
+  },
+  {
+    "file": "spageti-kyufteta.jpg",
+    "alt": "Спагети с кюфтета в доматен сос",
+    "width": 1201,
+    "height": 880
+  },
+  {
+    "file": "tarator.jpg",
+    "alt": "Студена супа таратор",
+    "width": 1024,
+    "height": 891
+  },
+  {
+    "file": "torta.jpg",
+    "alt": "Парче домашна торта",
+    "width": 1201,
+    "height": 880
+  }
+]
