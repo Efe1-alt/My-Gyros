@@ -3,8 +3,10 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Restaurant - Garden Romantic | Ресторант в Пловдив</title>
-<meta name="description" content="Семеен ресторант в сърцето на Пловдив с традиционна българска кухня по домашни рецепти, градина на открито и опции без глутен, без лактоза и вегетарианско меню. Ул. „Висла“ 1, Пловдив." />
+<title>Garden Romantic | Ресторант в Тракия, Пловдив</title>
+<meta name="description" content="Ресторант Garden Romantic в Тракия, Пловдив – вкусна храна, най-доброто суши в града, частни партита и уютна атмосфера. Пон–Съб 10:00–00:00." />
+<meta name="keywords" content="Garden Romantic, ресторант Тракия, ресторант Пловдив, суши Пловдив, частни партита Пловдив, рожден ден ресторант, фирмено парти Пловдив" />
+<meta name="theme-color" content="#0c0b0e" />
 
 <script>
   // Always land back at the top on a manual refresh, instead of the
@@ -20,42 +22,61 @@
 
 <!-- Open Graph -->
 <meta property="og:type" content="restaurant.restaurant" />
-<meta property="og:title" content="Restaurant - Garden Romantic | Ресторант в Пловдив" />
-<meta property="og:description" content="Семеен ресторант в рустик и модерен стил. Традиционна българска кухня по домашни рецепти, приготвена от нулата. Ул. „Висла“ 1, Пловдив." />
-<meta property="og:image" content="images/hero-entrance.jpg" />
+<meta property="og:title" content="Garden Romantic | Ресторант в Тракия, Пловдив" />
+<meta property="og:description" content="Вкусна храна, суши, което гостите наричат най-доброто в града, частни партита и уютна градина. Пон–Съб 10:00–00:00." />
+<meta property="og:url" content="https://garden-romantic.vercel.app/" />
+<meta property="og:site_name" content="Garden Romantic" />
+<!-- СМЕНИ СНИМКАТА: снимка за споделяне във Facebook/Viber — JPG 1200x630 с градината или суши; соцмрежите не показват SVG -->
+<meta property="og:image" content="images/hero-placeholder.svg" />
 <meta property="og:locale" content="bg_BG" />
 
-<link rel="icon" href="data:," />
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Garden Romantic | Ресторант в Тракия, Пловдив" />
+<meta name="twitter:description" content="Вкусна храна, суши, което гостите наричат най-доброто в града, частни партита и уютна градина." />
+<meta name="twitter:image" content="images/hero-placeholder.svg" />
+
+<!-- СМЕНИ ФАВИКОНА: временна иконка, замени с логото на ресторанта -->
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+<link rel="manifest" href="site.webmanifest" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="css/style.css" />
 
+<!-- "servesCuisine" е ДЕМО ТЕКСТ – ПОТВЪРДИ С КЛИЕНТА -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Restaurant",
-  "name": "Restaurant - Garden Romantic",
-  "image": "images/hero-entrance.jpg",
-  "telephone": "+35932634814",
+  "name": "Garden Romantic",
+  "url": "https://garden-romantic.vercel.app/",
+  "image": "images/hero-placeholder.svg",
+  "telephone": "+359877007375",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "ул. Висла 1",
+    "streetAddress": "ул. „Вълко Шопов“, Икономическа зона Тракия",
     "addressLocality": "Пловдив",
-    "postalCode": "4000",
+    "postalCode": "4023",
     "addressCountry": "BG"
   },
-  "servesCuisine": "Българска кухня",
-  "priceRange": "лв.лв.",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 42.1267913,
+    "longitude": 24.7737829
+  },
+  "hasMap": "https://www.google.com/maps?q=42.1267913,24.7737829",
+  "servesCuisine": ["Суши", "Европейска кухня"],
+  "priceRange": "$$",
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.3",
-    "reviewCount": "128"
+    "ratingValue": "4.4",
+    "bestRating": "5",
+    "reviewCount": "484"
   },
   "acceptsReservations": "True",
   "openingHoursSpecification": [
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Thursday","Friday"], "opens": "09:00", "closes": "17:00" },
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "09:00", "closes": "17:30" }
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "10:00", "closes": "23:59" }
   ]
 }
 </script>
@@ -68,7 +89,7 @@
      ============================================================ -->
 <header class="nav" id="siteNav">
   <div class="container">
-    <a href="#home" class="nav__mark">GARDEN ROMANTIC</a>
+    <a href="#home" class="nav__mark">Garden Romantic</a>
 
     <nav aria-label="Основна навигация">
       <ul class="nav__links">
@@ -106,25 +127,26 @@
        ============================================================ -->
   <section class="hero" id="home">
     <div class="hero__media">
-      <img src="images/hero-entrance.jpg" alt="Входът на ресторант Garden Romantic — арка от рози, маси и градина пред заведението" width="1800" height="1320" fetchpriority="high" />
+      <!-- СМЕНИ СНИМКАТА: градината на ресторанта вечер — осветени маси, зеленина, гости (1800x1320) -->
+      <img src="images/hero-placeholder.svg" alt="Градината на ресторант Garden Romantic вечер — осветени маси сред зеленина" width="1800" height="1320" fetchpriority="high" />
     </div>
     <div class="hero__scrim" aria-hidden="true"></div>
 
     <div class="hero__content">
-      <p class="eyebrow">Restaurant · Plovdiv</p>
+      <p class="eyebrow">Restaurant · Trakia, Plovdiv</p>
       <h1>Garden Romantic</h1>
-      <p class="hero__tagline">„Вкус, атмосфера и моменти,<br />които остават.“</p>
-      <p class="hero__support">Семеен ресторант в сърцето на Пловдив с традиционна българска кухня и градина, създадена за дълги вечери.</p>
+      <p class="hero__tagline">Вкусна храна, уютна градина<br />и топло посрещане в сърцето на Тракия</p>
+      <p class="hero__support">Суши, което гостите наричат най-доброто в града, бързо обслужване и честни цени — всеки ден без неделя, от 10:00 до полунощ.</p>
 
       <div class="hero__actions">
-        <a href="#reservation" class="btn btn-primary">Резервирай маса</a>
+        <a href="tel:+359877007375" class="btn btn-primary">Резервирай маса</a>
         <a href="#menu" class="btn btn-ghost-light">Разгледай менюто</a>
       </div>
 
-      <div class="hero__badge" aria-label="Оценка 4,3 от 5 в Google, 128 отзива">
+      <div class="hero__badge" aria-label="Оценка 4,4 от 5 в Google, 484 отзива">
         <span class="hero__badge-stars" aria-hidden="true">★</span>
-        <strong>4.3</strong>
-        <span>· 128 отзива в Google</span>
+        <strong>4.4</strong>
+        <span>· 484 отзива в Google</span>
       </div>
     </div>
 
@@ -141,16 +163,19 @@
     <div class="container reveal">
       <div class="statement__text">
         <p class="eyebrow">За нас</p>
-        <h2>Семеен ресторант в сърцето на Пловдив.</h2>
-        <p>Garden Romantic съчетава рустик и модерен стил, за да ви посрещне като у дома. Сервираме традиционна българска кухня по домашни рецепти, предавани от поколение на поколение — всичко се приготвя от нулата.</p>
-        <p>Разполагаме с приятна градина и тераса на открито, идеална за обяд и релакс. Предлагаме и опции без глутен и без лактоза, както и вегетарианско меню.</p>
+        <h2>Всяко посещение е повод за празник.</h2>
+        <p>Garden Romantic е място, в което всяко посещение е повод за празник. Намираме се в квартал Тракия, Пловдив, и посрещаме гостите си с вкусна храна, бързо обслужване и атмосфера, в която искаш да останеш по-дълго.</p>
+        <p>Нашата кухня съчетава любими класически ястия със специалитети, с които сме известни, а сушито ни гостите често наричат най-доброто в града. Поддържаме честни цени, защото вярваме, че качествената храна трябва да е достъпна.</p>
+        <p>Освен за обяд и вечеря, Garden Romantic е идеалното място за частни празненства — рождени дни, семейни събирания и фирмени партита, с хубава музика и екип, който се грижи за всеки детайл.</p>
+        <p>Очакваме ви от понеделник до събота, от 10:00 до полунощ.</p>
         <blockquote class="statement__quote">
-          <p>„Рецептите на баба! Всичко е приготвено от нулата.“</p>
-          <cite>— Тесия Уайт, Google отзив</cite>
+          <p>„Сушито е най-доброто в града!“</p>
+          <cite>— Гост от Google</cite>
         </blockquote>
       </div>
       <div class="statement__media">
-        <img src="images/about-interior.jpg" alt="Уютната зала на ресторант Garden Romantic — зелени дивани, осветени лавици и подредена маса" loading="lazy" width="1024" height="922" />
+        <!-- СМЕНИ СНИМКАТА: интериорът на залата — подредени маси, уютна светлина (1024x922) -->
+        <img src="images/about-placeholder.svg" alt="Залата на ресторант Garden Romantic с подредени маси и уютна светлина" loading="lazy" width="1024" height="922" />
       </div>
     </div>
   </section>
@@ -163,7 +188,7 @@
       <div class="section-head menu__head reveal">
         <div>
           <p class="eyebrow">The Menu</p>
-          <h2>Избери своя момент.</h2>
+          <h2>Суши, класика и специалитети.</h2>
         </div>
       </div>
 
@@ -181,35 +206,36 @@
              <div class="menu-cat__list">
                <div class="menu-dish">
                  <span class="menu-dish__name">Dish name</span>
-                 <span class="menu-dish__price">0.00 лв.</span>
+                 <span class="menu-dish__price">0.00 €</span>
                  <p class="menu-dish__desc">Description.</p>
                </div>
              </div>
            </details>
            ================================================ -->
 
-      <p class="menu__note reveal">Менюто важи за делнични дни на обяд.</p>
+      <!-- ДЕМО ТЕКСТ – ПОТВЪРДИ С КЛИЕНТА: всички ястия и цени в менюто по-долу са примерни -->
+      <p class="menu__note reveal">Част от любимите ни предложения. Пълното меню ще намерите в ресторанта.</p>
 
       <details class="menu-cat reveal" open>
         <summary>
-          <span>Обедно меню — Супи</span>
+          <span>Суши</span>
           <span class="menu-cat__toggle">Виж</span>
         </summary>
         <div class="menu-cat__list">
 
           <div class="menu-dish">
-            <span class="menu-dish__name">Пилешка дроб-чорба (400 гр)</span>
-            <span class="menu-dish__price">5.30 лв.</span>
+            <span class="menu-dish__name">Калифорния ролка със сурими и авокадо (8 бр.)</span>
+            <span class="menu-dish__price">8.90 €</span>
           </div>
 
           <div class="menu-dish">
-            <span class="menu-dish__name">Домашна пилешка супа</span>
-            <span class="menu-dish__price">4.90 лв.</span>
+            <span class="menu-dish__name">Филаделфия ролка със сьомга и крема сирене (8 бр.)</span>
+            <span class="menu-dish__price">10.90 €</span>
           </div>
 
           <div class="menu-dish">
-            <span class="menu-dish__name">Картофена крем супа с крутони</span>
-            <span class="menu-dish__price">4.50 лв.</span>
+            <span class="menu-dish__name">Суши сет Garden Romantic (32 бр.)</span>
+            <span class="menu-dish__price">34.90 €</span>
           </div>
 
         </div>
@@ -217,39 +243,39 @@
 
       <details class="menu-cat reveal" open>
         <summary>
-          <span>Обедно меню — Основни ястия</span>
+          <span>Основни ястия и специалитети</span>
           <span class="menu-cat__toggle">Виж</span>
         </summary>
         <div class="menu-cat__list">
 
           <div class="menu-dish">
-            <span class="menu-dish__name">Домашен шарен гювеч</span>
-            <span class="menu-dish__price">5.90 лв.</span>
+            <span class="menu-dish__name">Свежа салата с печени зеленчуци и сирене</span>
+            <span class="menu-dish__price">6.90 €</span>
           </div>
 
           <div class="menu-dish">
-            <span class="menu-dish__name">Кюфтета от пресни тиквички с млечно-чеснов сос</span>
-            <span class="menu-dish__price">7.10 лв.</span>
+            <span class="menu-dish__name">Паста с пилешко филе и гъби в сметанов сос</span>
+            <span class="menu-dish__price">8.50 €</span>
           </div>
 
           <div class="menu-dish">
-            <span class="menu-dish__name">Печен пилешки бут с гъбено ризото</span>
-            <span class="menu-dish__price">7.70 лв.</span>
+            <span class="menu-dish__name">Пилешки бут на фурна с картофи и розмарин</span>
+            <span class="menu-dish__price">9.40 €</span>
           </div>
 
           <div class="menu-dish">
-            <span class="menu-dish__name">Телешки хапки с каймак, ориз и лек сос</span>
-            <span class="menu-dish__price">7.90 лв.</span>
+            <span class="menu-dish__name">Свинско каре на скара с гарнитура по избор</span>
+            <span class="menu-dish__price">11.90 €</span>
           </div>
 
           <div class="menu-dish">
-            <span class="menu-dish__name">Пилешко пане с гарнитура нахут и зелена салата</span>
-            <span class="menu-dish__price">8.90 лв.</span>
+            <span class="menu-dish__name">Филе от сьомга с ориз и зеленчуци</span>
+            <span class="menu-dish__price">14.90 €</span>
           </div>
 
           <div class="menu-dish">
-            <span class="menu-dish__name">Свински кюфтенца</span>
-            <span class="menu-dish__price">8.90 лв.</span>
+            <span class="menu-dish__name">Телешки стек с картофено пюре</span>
+            <span class="menu-dish__price">18.90 €</span>
           </div>
 
         </div>
@@ -257,24 +283,24 @@
 
       <details class="menu-cat reveal" open>
         <summary>
-          <span>Обедно меню — Десерти</span>
+          <span>Десерти</span>
           <span class="menu-cat__toggle">Виж</span>
         </summary>
         <div class="menu-cat__list">
 
           <div class="menu-dish">
-            <span class="menu-dish__name">Домашна торта Сара</span>
-            <span class="menu-dish__price">6.90 лв.</span>
+            <span class="menu-dish__name">Шоколадово суфле със сладолед</span>
+            <span class="menu-dish__price">5.90 €</span>
           </div>
 
           <div class="menu-dish">
-            <span class="menu-dish__name">Крем карамел</span>
-            <span class="menu-dish__price">5.30 лв.</span>
+            <span class="menu-dish__name">Чийзкейк с горски плодове</span>
+            <span class="menu-dish__price">5.50 €</span>
           </div>
 
           <div class="menu-dish">
-            <span class="menu-dish__name">Ориз с халва и орехи</span>
-            <span class="menu-dish__price">5.30 лв.</span>
+            <span class="menu-dish__name">Моти с манго</span>
+            <span class="menu-dish__price">4.90 €</span>
           </div>
 
         </div>
@@ -289,8 +315,14 @@
     <div class="container">
       <div class="section-head reveal">
         <p class="eyebrow">Галерия</p>
-        <h2>Поглед в Garden Romantic</h2>
+        <h2>Суши, градина и празници</h2>
       </div>
+
+      <!-- СМЕНИ СНИМКИТЕ: 6-те снимки в галерията са placeholder-и (images/gallery/*.svg).
+           Нужни са: голям суши сет, градината с масите, маки ролки отблизо,
+           маса за частно парти, специалитет от основното меню, десерт.
+           Сложи истинските снимки в images/gallery/, изтрий .svg файловете
+           и пусни скрипта по-долу — той ще обнови manifest.json сам. -->
 
       <!-- Populated at runtime by js/gallery.js from images/gallery/manifest.json —
            drop a photo into images/gallery/, run
@@ -333,10 +365,10 @@
         <p class="eyebrow">Google Reviews</p>
         <h2 class="reviews__heading">Какво казват гостите ни</h2>
 
-        <div class="hero__badge reviews__badge" aria-label="Оценка 4,3 от 5 в Google, 128 отзива">
+        <div class="hero__badge reviews__badge" aria-label="Оценка 4,4 от 5 от над 480 отзива в Google">
           <span class="hero__badge-stars" aria-hidden="true">★</span>
-          <strong>4.3</strong>
-          <span>· 128 отзива в Google</span>
+          <strong>4.4</strong>
+          <span>от над 480 отзива в Google</span>
         </div>
       </div>
 
@@ -344,40 +376,28 @@
         <div class="reviews__viewport">
           <div class="reviews__track" id="reviewsTrack">
 
-            <article class="review-card" role="group" aria-roledescription="слайд" aria-label="Отзив 1 от 6">
+            <article class="review-card" role="group" aria-roledescription="слайд" aria-label="Отзив 1 от 4">
               <div class="review-card__stars" aria-hidden="true">★★★★★</div>
-              <p>„Отлична кухня и невероятен комфорт! Посещението ни в ресторант „Garden Romantic“ беше истинско удоволствие.“</p>
-              <p class="review-card__name">Георги Тонков</p>
+              <p>„Много приятно място, персоналът е изключително любезен, а кухнята е невероятна. Сушито е най-доброто в града!“</p>
+              <p class="review-card__name">Гост от Google</p>
             </article>
 
-            <article class="review-card" role="group" aria-roledescription="слайд" aria-label="Отзив 2 от 6">
+            <article class="review-card" role="group" aria-roledescription="слайд" aria-label="Отзив 2 от 4">
               <div class="review-card__stars" aria-hidden="true">★★★★★</div>
-              <p>„Това място е абсолютно невероятно! Отвън има прекрасна градинска атмосфера, а вътре е приятна смесица от традиционно и модерно. Рецептите на баба! Всичко е приготвено от нулата.“</p>
-              <p class="review-card__name">Тесия Уайт</p>
+              <p>„Обслужване и ястия на ниво Мишлен. 10 от 10, препоръчвам!“</p>
+              <p class="review-card__name">Гост от Google</p>
             </article>
 
-            <article class="review-card" role="group" aria-roledescription="слайд" aria-label="Отзив 3 от 6">
+            <article class="review-card" role="group" aria-roledescription="слайд" aria-label="Отзив 3 от 4">
               <div class="review-card__stars" aria-hidden="true">★★★★★</div>
-              <p>„Прекрасно място в рустик стил в сърцето на града. Идеално за обяд и релакс. Сервира се традиционна българска кухня, включително обедно меню с готвени ястия.“</p>
-              <p class="review-card__name">Иван Добрев</p>
+              <p>„Мястото е подходящо за частни партита. Хубава музика, вкусна храна и приятна обстановка.“</p>
+              <p class="review-card__name">Гост от Google</p>
             </article>
 
-            <article class="review-card" role="group" aria-roledescription="слайд" aria-label="Отзив 4 от 6">
+            <article class="review-card" role="group" aria-roledescription="слайд" aria-label="Отзив 4 от 4">
               <div class="review-card__stars" aria-hidden="true">★★★★★</div>
-              <p>„Какъв фантастичен ресторант! Пилешката супа беше невероятна и толкова освежаваща! Собственикът е много приятелски настроен, а мястото е прекрасно.“</p>
-              <p class="review-card__name">Юна Лориот</p>
-            </article>
-
-            <article class="review-card" role="group" aria-roledescription="слайд" aria-label="Отзив 5 от 6">
-              <div class="review-card__stars" aria-hidden="true">★★★★★</div>
-              <p>„Какъв очарователен ресторант! Ястията, супите и десертите, които опитахме, бяха с домашен вкус. Цените са разумни. Персоналът е много внимателен.“</p>
-              <p class="review-card__name">Стефка Петракиева</p>
-            </article>
-
-            <article class="review-card" role="group" aria-roledescription="слайд" aria-label="Отзив 6 от 6">
-              <div class="review-card__stars" aria-hidden="true">★★★★★</div>
-              <p>„Приятна атмосфера, обедно меню, специално приготвено за вегетарианци, приятелско и висококачествено обслужване!“</p>
-              <p class="review-card__name">Ваня Стоянова</p>
+              <p>„Вкусна храна! Цената отговаря на качеството, а мястото е прекрасно.“</p>
+              <p class="review-card__name">Гост от Google</p>
             </article>
 
           </div>
@@ -403,15 +423,17 @@
       <div class="reservation__intro reveal">
         <p class="eyebrow">Резервация</p>
         <h2>Масата ви очаква.</h2>
-        <p>Резервирайте маса и превърнете обикновената вечер в специален момент.</p>
+        <p>Запазете маса за обяд или вечеря — или ни пишете за рожден ден, семейно събиране или фирмено парти.</p>
 
         <div class="reservation__meta">
-          <div><strong>Телефон:</strong> <a href="tel:+35932634814">032 634 814</a></div>
-          <div><strong>Адрес:</strong> ул. „Висла“ 1, 4000 Пловдив</div>
+          <div><strong>Телефон:</strong> <a href="tel:+359877007375">087 700 7375</a></div>
+          <div><strong>Адрес:</strong> ул. „Вълко Шопов“, ИЗ Тракия, 4023 Пловдив</div>
         </div>
       </div>
 
       <div class="reservation-form reveal" id="reservationForm">
+        <!-- СМЕНИ ИМЕЙЛА: формата още не изпраща заявки никъде. Свържи я с
+             имейла на ресторанта (получател) — виж TODO в js/main.js. -->
         <form class="form" id="resForm" novalidate>
           <div class="form__row">
             <div class="field">
@@ -475,18 +497,18 @@
 
           <div class="field">
             <label for="resNote">Допълнителна бележка</label>
-            <textarea id="resNote" name="note" placeholder="По желание"></textarea>
+            <textarea id="resNote" name="note" placeholder="По желание — повод, градина или зала"></textarea>
           </div>
 
           <div class="form__submit">
             <button type="submit" class="btn btn-primary">Изпрати запитване</button>
-            <span class="form__note">Заявката се потвърждава от екипа на Garden Romantic по телефон.</span>
+            <span class="form__note">Ще ви се обадим, за да потвърдим резервацията.</span>
           </div>
         </form>
 
         <div class="form__success" id="resSuccess" role="status">
           <h3>Благодарим ви!</h3>
-          <p>Заявката ви е получена. Екипът на Garden Romantic ще се свърже с вас на посочения телефон, за да потвърди резервацията.</p>
+          <p>Получихме заявката ви. Ще ви се обадим на посочения телефон, за да потвърдим масата и всички детайли.</p>
         </div>
       </div>
     </div>
@@ -505,41 +527,41 @@
           <div class="location__row">
             <span class="location__label">Адрес</span>
             <span class="location__value">
-              <a href="https://www.google.com/maps/place/%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%D1%82+%22%D0%90%D1%81%D1%82%D1%80%D0%B0%D0%BB%22/@42.1523412,24.7457416,20z/data=!4m9!1m2!2m1!1z0KDQtdGB0YLQvtGA0LDQvdGC0Lgg0L_Qu9C-0LLQtNC40LI!3m5!1s0x14acd1962feef4cf:0x5d1d334f257d9510!8m2!3d42.1523412!4d24.7463371!16s%2Fg%2F1tds8x19?entry=ttu&amp;g_ep=EgoyMDI2MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">
-                ул. „Висла“ 1, Център<br />4000 Пловдив, България
+              <a href="https://www.google.com/maps?q=42.1267913,24.7737829" target="_blank" rel="noopener">
+                ул. „Вълко Шопов“, Икономическа зона Тракия<br />4023 Пловдив, България
               </a>
             </span>
           </div>
           <div class="location__row">
             <span class="location__label">Телефон</span>
-            <span class="location__value"><a href="tel:+35932634814">032 634 814</a></span>
+            <span class="location__value"><a href="tel:+359877007375">+359 87 700 7375</a></span>
           </div>
           <div class="location__row">
             <span class="location__label">Работно време</span>
             <div class="location__hours">
-              <div class="location__hours-row"><span>Понеделник – Петък</span><span>09:00 – 17:00<br /><small>(сряда до 17:30)</small></span></div>
-              <div class="location__hours-row location__hours-row--closed"><span>Събота – Неделя</span><span>Почивен ден</span></div>
+              <div class="location__hours-row"><span>Понеделник – Събота</span><span>10:00 – 00:00</span></div>
+              <div class="location__hours-row location__hours-row--closed"><span>Неделя</span><span>Почивен ден</span></div>
             </div>
           </div>
         </div>
 
         <div class="location__cta">
-          <a class="btn btn-ghost-light" href="https://www.google.com/maps/place/%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%D1%82+%22%D0%90%D1%81%D1%82%D1%80%D0%B0%D0%BB%22/@42.1523412,24.7457416,20z/data=!4m9!1m2!2m1!1z0KDQtdGB0YLQvtGA0LDQvdGC0Lgg0L_Qu9C-0LLQtNC40LI!3m5!1s0x14acd1962feef4cf:0x5d1d334f257d9510!8m2!3d42.1523412!4d24.7463371!16s%2Fg%2F1tds8x19?entry=ttu&amp;g_ep=EgoyMDI2MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Покажи в Google Maps</a>
+          <a class="btn btn-ghost-light" href="https://www.google.com/maps?q=42.1267913,24.7737829" target="_blank" rel="noopener">Покажи в Google Maps</a>
         </div>
       </div>
 
       <div class="map-frame reveal">
         <iframe
           class="map-frame__embed"
-          src="https://www.google.com/maps?q=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%D1%82%20%D0%90%D1%81%D1%82%D1%80%D0%B0%D0%BB%2C%20%D1%83%D0%BB.%20%D0%92%D0%B8%D1%81%D0%BB%D0%B0%201%2C%20%D0%9F%D0%BB%D0%BE%D0%B2%D0%B4%D0%B8%D0%B2%2C%20%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F&amp;ll=42.1523412,24.7463371&amp;z=17&amp;output=embed"
-          title="Карта с местоположението на ресторант Garden Romantic, ул. Висла 1, Пловдив"
+          src="https://www.google.com/maps?q=42.1267913,24.7737829&amp;z=17&amp;output=embed"
+          title="Карта с местоположението на ресторант Garden Romantic, ул. „Вълко Шопов“, Тракия, Пловдив"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
         <div class="map-frame__vignette" aria-hidden="true"></div>
         <a
           class="map-frame__link"
-          href="https://www.google.com/maps/place/%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%D1%82+%22%D0%90%D1%81%D1%82%D1%80%D0%B0%D0%BB%22/@42.1523412,24.7457416,20z/data=!4m9!1m2!2m1!1z0KDQtdGB0YLQvtGA0LDQvdGC0Lgg0L_Qu9C-0LLQtNC40LI!3m5!1s0x14acd1962feef4cf:0x5d1d334f257d9510!8m2!3d42.1523412!4d24.7463371!16s%2Fg%2F1tds8x19?entry=ttu&amp;g_ep=EgoyMDI2MDkwOC4wIKXMDSoASAFQAw%3D%3D"
+          href="https://www.google.com/maps?q=42.1267913,24.7737829"
           target="_blank"
           rel="noopener"
         >Отвори в Google Maps ↗</a>
@@ -556,15 +578,15 @@
   <div class="container">
     <div class="footer__top">
       <div class="footer__brand">
-        <a href="#home" class="nav__mark">GARDEN ROMANTIC</a>
-        <p class="footer__tag">„Вкус, атмосфера и моменти, които остават.“</p>
-        <div class="hero__badge footer__badge" aria-label="Оценка 4,3 от 5 в Google, 128 отзива">
+        <a href="#home" class="nav__mark">Garden Romantic</a>
+        <p class="footer__tag">„Всяко посещение е повод за празник.“</p>
+        <div class="hero__badge footer__badge" aria-label="Оценка 4,4 от 5 в Google, 484 отзива">
           <span class="hero__badge-stars" aria-hidden="true">★</span>
-          <strong>4.3</strong>
-          <span>· 128 отзива в Google</span>
+          <strong>4.4</strong>
+          <span>· 484 отзива в Google</span>
         </div>
-        <!-- Social links intentionally omitted — add here only once real
-             Instagram/Facebook profile URLs are confirmed. -->
+        <!-- Иконите за социални мрежи са скрити, защото няма линкове.
+             Добави ги тук, когато има реални профили във Facebook/Instagram. -->
       </div>
 
       <nav aria-label="Навигация във футъра">
@@ -581,28 +603,28 @@
       <div>
         <h4>Контакти</h4>
         <ul class="footer__contact">
-          <li><a href="tel:+35932634814">032 634 814</a></li>
-          <li>ул. „Висла“ 1, Център<br />4000 Пловдив</li>
+          <li><a href="tel:+359877007375">+359 87 700 7375</a></li>
+          <li>ул. „Вълко Шопов“, ИЗ Тракия<br />4023 Пловдив</li>
         </ul>
       </div>
 
       <div>
         <h4>Работно време</h4>
         <ul class="footer__hours">
-          <li><span>Понеделник</span><span>09:00 – 17:00</span></li>
-          <li><span>Вторник</span><span>09:00 – 17:00</span></li>
-          <li><span>Сряда</span><span>09:00 – 17:30</span></li>
-          <li><span>Четвъртък</span><span>09:00 – 17:00</span></li>
-          <li><span>Петък</span><span>09:00 – 17:00</span></li>
-          <li class="footer__hours-closed"><span>Събота</span><span>Затворено</span></li>
-          <li class="footer__hours-closed"><span>Неделя</span><span>Затворено</span></li>
+          <li><span>Понеделник</span><span>10:00 – 00:00</span></li>
+          <li><span>Вторник</span><span>10:00 – 00:00</span></li>
+          <li><span>Сряда</span><span>10:00 – 00:00</span></li>
+          <li><span>Четвъртък</span><span>10:00 – 00:00</span></li>
+          <li><span>Петък</span><span>10:00 – 00:00</span></li>
+          <li><span>Събота</span><span>10:00 – 00:00</span></li>
+          <li class="footer__hours-closed"><span>Неделя</span><span>Почивен ден</span></li>
         </ul>
       </div>
     </div>
 
     <div class="footer__bottom">
-      <span>© <span id="year"></span> Restaurant - Garden Romantic. Всички права запазени.</span>
-      <span>Пловдив, България</span>
+      <span>© <span id="year"></span> Garden Romantic. Всички права запазени.</span>
+      <span>Тракия, Пловдив</span>
     </div>
   </div>
 </footer>

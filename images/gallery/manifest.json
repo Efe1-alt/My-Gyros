@@ -1,37 +1,37 @@
 [
   {
-    "file": "gyuvech-kyufteta.jpg",
-    "alt": "Гювеч с домашни кюфтенца",
+    "file": "sushi-set.svg",
+    "alt": "Голям суши сет на дъска",
     "width": 957,
     "height": 1120
   },
   {
-    "file": "hlyab-pita.jpg",
-    "alt": "Прясно изпечен домашен хляб",
+    "file": "gradina.svg",
+    "alt": "Градината с масите на открито",
     "width": 1024,
     "height": 807
   },
   {
-    "file": "panirano-file-salata.jpg",
-    "alt": "Панирано филе със зелена салата",
+    "file": "maki-rolki.svg",
+    "alt": "Маки и урамаки ролки отблизо",
     "width": 1024,
     "height": 731
   },
   {
-    "file": "spageti-kyufteta.jpg",
-    "alt": "Спагети с кюфтета в доматен сос",
+    "file": "chastno-parti.svg",
+    "alt": "Подредена маса за частно парти или рожден ден",
     "width": 1201,
     "height": 880
   },
   {
-    "file": "tarator.jpg",
-    "alt": "Студена супа таратор",
+    "file": "osnovno-yastie.svg",
+    "alt": "Специалитет от основното меню",
     "width": 1024,
     "height": 891
   },
   {
-    "file": "torta.jpg",
-    "alt": "Парче домашна торта",
+    "file": "desert.svg",
+    "alt": "Десерт на заведението",
     "width": 1201,
     "height": 880
   }

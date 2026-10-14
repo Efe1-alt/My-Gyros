@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1201" height="880" viewBox="0 0 1201 880">
+  <!-- СМЕНИ СНИМКАТА: Десерт на заведението (1201x880) -->
+  <rect width="1201" height="880" fill="#201d24"/>
+  <rect x="29" y="29" width="1143" height="822" fill="none" stroke="#b7abc9" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="10 8"/>
+  <g font-family="Manrope, Segoe UI, Arial, sans-serif" text-anchor="middle" fill="#9c96a3">
+    <text x="600.5" y="413.9" font-size="23.200000000000003" letter-spacing="3" fill="#b7abc9">СМЕНИ СНИМКАТА</text>
+    <text x="600.5" y="454.5" font-size="29" fill="#f3ede3" fill-opacity="0.8">Десерт на заведението</text>
+    <text x="600.5" y="495.1" font-size="20.299999999999997">1201 × 880</text>
+  </g>
+</svg>

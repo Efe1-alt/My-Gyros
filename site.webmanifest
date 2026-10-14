@@ -1,0 +1,13 @@
+{
+  "name": "Garden Romantic — ресторант в Тракия, Пловдив",
+  "short_name": "Garden Romantic",
+  "description": "Ресторант Garden Romantic в Тракия, Пловдив – вкусна храна, най-доброто суши в града, частни партита и уютна атмосфера.",
+  "lang": "bg",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0c0b0e",
+  "theme_color": "#0c0b0e",
+  "icons": [
+    { "src": "images/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

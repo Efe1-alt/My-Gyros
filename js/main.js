@@ -382,6 +382,9 @@
         note: formData.get("note") || ""
       };
 
+      // СМЕНИ ИМЕЙЛА: заявките още не стигат до ресторанта. Свържи формата
+      // с имейла на Garden Romantic (напр. през Formspree/EmailJS) или с
+      // реален backend.
       // TODO: connect to a real reservation backend, e.g.:
       // fetch("/api/reservations", {
       //   method: "POST",
