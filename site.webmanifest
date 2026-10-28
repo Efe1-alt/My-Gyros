@@ -1,12 +1,12 @@
 {
-  "name": "Garden Romantic — ресторант в Тракия, Пловдив",
-  "short_name": "Garden Romantic",
-  "description": "Ресторант Garden Romantic в Тракия, Пловдив – вкусна храна, най-доброто суши в града, частни партита и уютна атмосфера.",
+  "name": "My Gyros, Пловдив",
+  "short_name": "My Gyros",
+  "description": "Истински гръцки гирос със свинско месо от Гърция. ул. „Солунска“ 6, Пловдив.",
   "lang": "bg",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#0c0b0e",
-  "theme_color": "#0c0b0e",
+  "background_color": "#f5f0e7",
+  "theme_color": "#202522",
   "icons": [
     { "src": "images/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
   ]

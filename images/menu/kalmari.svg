@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- СМЕНИ СНИМКАТА: Калмари на тиган — очакван файл: kalmari.jpg (800x600) -->
+  <rect width="800" height="600" fill="#201d24"/>
+  <rect x="27" y="27" width="746" height="546" fill="none" stroke="#b7abc9" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="10 8"/>
+  <g font-family="Manrope, Segoe UI, Arial, sans-serif" text-anchor="middle" fill="#9c96a3">
+    <text x="400.0" y="275.7" font-size="21.6" letter-spacing="3" fill="#b7abc9">СМЕНИ СНИМКАТА</text>
+    <text x="400.0" y="313.5" font-size="27" fill="#f3ede3" fill-opacity="0.8">Калмари на тиган</text>
+    <text x="400.0" y="351.3" font-size="18.9">kalmari.jpg</text>
+  </g>
+</svg>

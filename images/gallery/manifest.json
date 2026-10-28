@@ -1,38 +1,38 @@
 [
   {
-    "file": "sushi-set.svg",
-    "alt": "Голям суши сет на дъска",
-    "width": 957,
-    "height": 1120
+    "file": "poke-riba-ton.webp",
+    "alt": "Поке боул с риба тон, авокадо, едамаме, царевица и червено зеле – ресторант Garden Romantic, Пловдив",
+    "width": 1216,
+    "height": 890
   },
   {
-    "file": "gradina.svg",
-    "alt": "Градината с масите на открито",
-    "width": 1024,
-    "height": 807
+    "file": "ribno-file-cheren-oriz.webp",
+    "alt": "Рибно филе върху черен ориз с доматен сос, каперси и песто – ресторант Garden Romantic, Пловдив",
+    "width": 1272,
+    "height": 827
   },
   {
-    "file": "maki-rolki.svg",
-    "alt": "Маки и урамаки ролки отблизо",
-    "width": 1024,
-    "height": 731
+    "file": "kalmari-na-tigan.webp",
+    "alt": "Калмари на тиган с печени чушки и рукола – ресторант Garden Romantic, Пловдив",
+    "width": 1331,
+    "height": 923
   },
   {
-    "file": "chastno-parti.svg",
-    "alt": "Подредена маса за частно парти или рожден ден",
-    "width": 1201,
-    "height": 880
+    "file": "domati-izvara-prosciutto.webp",
+    "alt": "Домати с извара, маслини и прошуто – ресторант Garden Romantic, Пловдив",
+    "width": 1321,
+    "height": 910
   },
   {
-    "file": "osnovno-yastie.svg",
-    "alt": "Специалитет от основното меню",
-    "width": 1024,
-    "height": 891
+    "file": "poke-skaridi-tempura.webp",
+    "alt": "Боул със скариди темпура, авокадо, едамаме и царевица – ресторант Garden Romantic, Пловдив",
+    "width": 1270,
+    "height": 886
   },
   {
-    "file": "desert.svg",
-    "alt": "Десерт на заведението",
-    "width": 1201,
-    "height": 880
+    "file": "boul-pileshko.webp",
+    "alt": "Боул с панирано пилешко, авокадо, яйце и чери домати – ресторант Garden Romantic, Пловдив",
+    "width": 1316,
+    "height": 931
   }
 ]

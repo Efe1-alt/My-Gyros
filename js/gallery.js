@@ -26,7 +26,7 @@
     var btn = document.createElement("button");
     btn.type = "button";
     btn.className = "gallery__item";
-    btn.setAttribute("aria-label", photo.alt || "Снимка от Garden Romantic");
+    btn.setAttribute("aria-label", photo.alt || "Снимка от My Gyros");
 
     var img = document.createElement("img");
     img.src = base + photo.file;
