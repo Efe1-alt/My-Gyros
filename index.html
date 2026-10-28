@@ -265,23 +265,61 @@
        ============================================================ -->
   <section class="section gallery" id="gallery" aria-labelledby="galleryTitle">
     <div class="container">
-      <div class="section-head reveal">
-        <p class="eyebrow">Галерия</p>
-        <h2 id="galleryTitle">Нашата храна.</h2>
+      <div class="gallery__head reveal">
+        <div>
+          <p class="eyebrow">Меню</p>
+          <h2 id="galleryTitle">Направено на момента.</h2>
+        </div>
+        <a class="gallery__more" href="#menu">Виж цялото меню <span aria-hidden="true">→</span></a>
       </div>
 
-      <!-- Снимките са в images/galeriya/. За смяна: сложи нов файл там и смени src, alt, width и height. -->
+      <!-- Снимките са в images/galeriya/. ИМЕНАТА И ОПИСАНИЯТА са
+           временни — смени ги с истинските. -->
       <div class="gallery__grid">
-        <figure class="gallery__item gallery__item--large reveal">
-          <img src="images/galeriya/pileshko-plato.webp" alt="Печено пиле с картофки, питка, цацики, сос и свежа салата" width="1233" height="852" loading="lazy" />
-        </figure>
-        <figure class="gallery__item reveal">
-          <img src="images/galeriya/burger.webp" alt="Двоен чийзбургер с яйце, картофки и барбекю сос" width="1352" height="846" loading="lazy" />
-        </figure>
-        <figure class="gallery__item reveal">
-          <img src="images/galeriya/kyufteta-plato.webp" alt="Кюфтета с картофки, питка, цацики, лютеница и салата" width="1238" height="856" loading="lazy" />
-        </figure>
+        <a class="food-card food-card--large reveal" href="#menu">
+          <figure>
+            <div class="food-card__media">
+              <img src="images/galeriya/pileshko-plato.webp" alt="Пилешка плата с печено пиле, пърженки, пита, дзадзики и салата" width="1233" height="852" loading="lazy" />
+            </div>
+            <figcaption class="food-card__body">
+              <span class="food-card__name">Пилешка плата</span>
+              <span class="food-card__meta">
+                <span class="food-card__desc">Печено пиле, пърженки, пита, дзадзики, салата</span>
+              </span>
+            </figcaption>
+          </figure>
+        </a>
+
+        <a class="food-card reveal" href="#menu">
+          <figure>
+            <div class="food-card__media">
+              <img src="images/galeriya/burger.webp" alt="Бургер с яйце, двойно говеждо, чедър и пърженки" width="1352" height="846" loading="lazy" />
+            </div>
+            <figcaption class="food-card__body">
+              <span class="food-card__name">Бургер с яйце</span>
+              <span class="food-card__meta">
+                <span class="food-card__desc">Двойно говеждо, чедър, яйце, пърженки</span>
+              </span>
+            </figcaption>
+          </figure>
+        </a>
+
+        <a class="food-card reveal" href="#menu">
+          <figure>
+            <div class="food-card__media">
+              <img class="food-card__img--zoom" src="images/galeriya/kyufteta-plato.webp" alt="Кюфтета с гарнитура: пита, пърженки, дзадзики и лютеница" width="1238" height="856" loading="lazy" />
+            </div>
+            <figcaption class="food-card__body">
+              <span class="food-card__name">Кюфтета с гарнитура</span>
+              <span class="food-card__meta">
+                <span class="food-card__desc">Пита, пърженки, дзадзики, лютеница</span>
+              </span>
+            </figcaption>
+          </figure>
+        </a>
       </div>
+
+      <a class="btn btn-outline-dark gallery__more-mobile" href="#menu">Виж цялото меню →</a>
     </div>
   </section>
 
